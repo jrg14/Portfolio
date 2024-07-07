@@ -9,8 +9,8 @@
 </head>
 
 <body class="text-slate-500 bg-black text-gray-900 bg-gradient-to-r from-black from-10% via-slate-900 via-50% to-black to-90% flex flex-col justify-center items-center">
-  <nav class="backdrop-blur w-5/6 sm:w-2/3 my-4 fixed top-0 z-50">
-    <div class="flex flex-row justify-center rounded-full border border-cyan-400">
+  <nav class="backdrop-blur w-auto my-4 fixed top-0 z-50">
+    <div class="flex flex-row justify-center rounded-full border border-cyan-400 px-10">
       <div class="relative flex h-12 items-center justify-between">
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex space-x-6 sm:space-x-16">
@@ -49,26 +49,27 @@
           </svg></a>
       </div>
     </section>
+
     <section id="Tecnologias" class="flex flex-col items-center pt-20">
       <h1 class="text-white font-bold text-5xl md:text-6xl mb-10">Tecnologías</h1>
 
       <div class="w-full max-w-4xl">
         <h2 class="text-white font-bold text-2xl mb-10 text-center">Backend</h2>
         <ul class="grid grid-cols-2 md:grid-cols-5 gap-8 mx-4 items-center">
-          <li class="mx-4"><img src="dist/img/python.webp" alt="Python" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/django.webp" alt="Django" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/mysql.webp" alt="MySQL" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/postgresql.webp" alt="PostgreSQL" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/mongodb.webp" alt="MongoDB" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/python.webp" alt="Python" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/django.webp" alt="Django" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/mysql.webp" alt="MySQL" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/postgresql.webp" alt="PostgreSQL" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/mongodb.webp" alt="MongoDB" class="rounded-lg size-24"></li>
         </ul>
 
         <h2 class="text-white font-bold text-2xl mt-16 mb-10 text-center">Frontend</h2>
         <ul class="grid grid-cols-2 md:grid-cols-5 gap-8 mx-4 items-center">
-          <li class="mx-4"><img src="dist/img/html.webp" alt="HTML" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/css.webp" alt="CSS" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/js.webp" alt="JavaScript" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/bootstrap.webp" alt="Bootstrap" class="rounded-lg size-24"></li>
-          <li class="mx-4"><img src="dist/img/tailwind.webp" alt="Tailwind CSS" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/html.webp" alt="HTML" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/css.webp" alt="CSS" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/js.webp" alt="JavaScript" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/bootstrap.webp" alt="Bootstrap" class="rounded-lg size-24"></li>
+          <li class="mx-4 flex justify-center"><img src="dist/img/tailwind.webp" alt="Tailwind CSS" class="rounded-lg size-24"></li>
         </ul>
       </div>
     </section>
@@ -76,11 +77,11 @@
     <section id="Proyectos" class="h-screen flex flex-col items-center pt-20 mt-40">
       <h1 class="text-white font-bold text-5xl md:text-6xl ">Proyectos</h2>
         <a href="https://github.com/jrg14/ProyectoTFG"
-          class="bg-trasparent hover:bg-slate-800 grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg mt-12 px-6 py-4 mx-2 md:mx-10 items-center">
-          <img src="/Portfolio/dist/img/PcForge.webp" alt="" class="rounded-lg h-5/6 mx-2">
+          class="bg-trasparent hover:bg-slate-800 grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg mt-12 px-6 py-4 mx-2 md:mx-20 items-center">
+          <img src="/Portfolio/dist/img/PcForge.webp" alt="" class="rounded-lg h-5/6 mx-2 items-center">
           <div class="col-span-2 flex flex-col">
-            <h2 class="text-white font-bold text-lg mx-2">Aplicación asesora en configuraciones de ordenador</h2>
-            <p class="mt-2 text-gray-400 font-bold mx-2">Aplicación web encargada de crear y asesorar sobre configuraciones de PC adaptadas al
+            <h2 class="text-white font-bold text-lg mx-2 text-center md:text-left">Aplicación asesora en configuraciones de ordenador</h2>
+            <p class="mt-2 text-gray-400 font-bold mx-2 text-center md:text-left">Aplicación web encargada de crear y asesorar sobre configuraciones de PC adaptadas al
               cliente</p>
 
             <ul class="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2 mx-2">
