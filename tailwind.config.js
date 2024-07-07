@@ -54,7 +54,14 @@ module.exports = {
         950: '#042f2e',
       },
     },
-    extend: {},
+    extend: {
+      screens: {
+        'mobile': '640px',  // Móvil: hasta 640px
+        'tablet': '768px',  // Tablet: hasta 768px
+        'laptop': '1024px', // Pantalla de ordenador: hasta 1024px
+        'desktop': '1280px',// Pantalla grande: hasta 1280px y más
+      },
+    },
   },
   plugins: [],
 }
